@@ -11,7 +11,7 @@ import numpy as np
 
 #external_stylesheets = ['https://codepen.io/unicorndy/pen/GRJXrvP.css','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css']
 
-df = pd.read_csv("C:/Users/SACO/Desktop/Dash_Board_Training/Caste.csv")
+df = pd.read_csv("Caste.csv")
 df.rename(columns={'under_trial': 'under trial', 'state_name': 'state'}, inplace=True)
 
 #BUTTON_STYLE={
